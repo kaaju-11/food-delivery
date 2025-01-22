@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Food Delivery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a fully responsive Food Delivery web application built using modern web development technologies, providing users with an intuitive and seamless experience for ordering food
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+• **` Food Menu `**: Browse a variety of food items categorized for easy selection.
 
-### `npm start`
+• **` Add to Cart `**: Add items to the cart with a single click.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• **` Cart Management `**: View all items in the cart, Adjust the quantity of each item and Remove items from the cart.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• **` Responsive Design: `**: Optimized for devices of all sizes, ensuring a great user experience on desktops, tablets, and mobile devices.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Frontend
 
-### `npm run build`
+• **` Frontend `**: React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+• **` State Management `**: Redux
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• **` Styling `**: Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• **` Additional Libraries: `**: 
+1.React Router for navigation.
+2.Redux Toolkit for efficient state management.
+3.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• **` Node.js `**: Server-side JavaScript runtime.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• **` Express `**: Minimal and flexible Node.js web application framework.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+• **` MongoDB `**: NoSQL database for storing user data and application content.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+• Browse Menu: Navigate through the food menu to explore items.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+• Add to Cart: Click on the "Add to Cart" button for desired items.
 
-### Code Splitting
+• Manage Cart:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-Adjust item quantities.
 
-### Analyzing the Bundle Size
+-Remove items if needed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Place Order: Proceed to checkout to complete your order.
 
-### Making a Progressive Web App
+# Setup and Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/kaaju-11/food-delivery.git
+    ```
+2. **Go to the project directory**
+   ```bash
+   cd food delivery
+   ```
+3. **Install dependencies**
+   ```bash
+   npm i
+   ```
 
-### Advanced Configuration
+- **`.env`**: Set environment variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+PORT=5000
+MONGO_URI=<your_mongo_uri>
 
-### Deployment
+JWT_SECRET=<yourverystrongsecret>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+NODE_ENV=development
 
-### `npm run build` fails to minify
+MAILTRAP_TOKEN=<your_mailtrap_token>
+EMAIL_FROM=mailtrap@demomailtrap.com
+EMAIL_FROM_NAME=<Your_Name>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CLOUDINARY_API_KEY=<your_cloudinary_api_key>
+CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
+CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
+
+CLIENT_URL=http://localhost:5173
+```
+# Run this app locally
+```bash
+npm run build
+```
+# Start the server
+```bash
+npm start
+```
+  
+Open your browser and navigate to `http://localhost:3000` to see the application in action.

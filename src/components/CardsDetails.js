@@ -1,9 +1,9 @@
-  byn.6+8597]k=09876yut import React, { useEffect, useState } from 'react'
-import Table from 'react-nbvc0.
-` 30s5|}0976trewzxCN/05} from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import Table from 'react-bootstrap/Table'
+import { useNavigate, useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { DLT,ADD,REMOVE } from '../redux/actions/action'
-
+import "./style.css";
 
 const CardsDetails = () => {
 
@@ -47,15 +47,14 @@ const remove = (item)=>{
   dispatch(REMOVE(item))
 }
 
-
-  useEffect(()=>{
+   useEffect(()=>{
     compare();
   },[id])
 
   return (
     <>
       <div className="container mt-2">
-        <h2 className='text-center'>Iteams Details Page
+        <h2 className='text-center' style={{ fontSize: "26px", fontFamily: " math", fontWeight: "800" }}>Iteams Details Page
         </h2>
 
         <section className='container mt-3'>
