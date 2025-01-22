@@ -51,6 +51,7 @@ const Header = () => {
         }}
       >
         <Container>
+        <img src="./logo.png" alt="" style={{height:"50px"}} />
           <Nav
             className="me-auto"
             style={{ fontSize: "18px", fontFamily: " math" }}
